@@ -5,6 +5,7 @@ import { useState } from 'react';
 export const ViewCart = () => {
 
     const [allItems, setAllItems] = useState([]);
+    const [finalItems, setFinalItems] = useState([]);
 
     const handleAdd = (id) => {
         allItems.forEach((data) => {

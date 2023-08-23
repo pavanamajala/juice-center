@@ -6,7 +6,9 @@ export const Header = () => {
         <div>
             <div style={{
                 display: 'flex',
-                backgroundColor: '#ff9300'
+                backgroundColor: '#ff9300',
+                padding: '10px',
+                fontWeight: 'bolder'
             }}>
                 <a
                     style={{
@@ -22,7 +24,8 @@ export const Header = () => {
                 </div>
                 <div style={{
                     position: 'absolute',
-                    right: '0'
+                    right: '0',
+                    paddingRight: '14px'
                 }}>
                     <a
                         style={{

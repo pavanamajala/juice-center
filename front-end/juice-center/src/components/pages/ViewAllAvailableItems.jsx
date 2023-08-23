@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import mockdata from '../../utils/mock/all-items-mock.json'
+import mockdata from '../../utils/mock/all-items-mock'
 import { ViewItems } from '../organisms/ViewItems'
 
 export const ViewAllAvailableItems = () => {

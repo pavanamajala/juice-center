@@ -25,13 +25,15 @@ export const ViewItems = ({ viewData, handleOnClick }) => {
                 </div>
                 <div style={{
                     display: 'flex',
-                    justifyContent: 'center'
+                    justifyContent: 'center',
+                    fontWeight: 'bold',
+                    textDecoration: 'underline'
                 }}>
                     <div>{viewData?.name}</div>
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-                    <div>Cost: {viewData?.cost}</div>
-                    <div>Qty: {viewData?.quantity}</div>
+                    <div>Cost: <b>{viewData?.cost}</b></div>
+                    {/* <div>Qty: {viewData?.quantity}</div> */}
                 </div>
                 <div style={{
                     display: 'flex',
