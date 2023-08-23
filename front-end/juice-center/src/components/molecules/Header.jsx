@@ -4,7 +4,8 @@ export const Header = () => {
     return (
         <div>
             <div style={{
-                display: 'flex'
+                display: 'flex',
+                backgroundColor: 'blanchedalmond'
             }}>
                 <div>
                     HOME
@@ -19,7 +20,18 @@ export const Header = () => {
                     position: 'absolute',
                     right: '0'
                 }}>
-                    <button>Cart</button>
+                    <button
+                        style={{
+                            margin: 0,
+                            padding: 0,
+                            border: 'none',
+                            background: 'none',
+                            color: 'inherit',
+                            font: 'inherit',
+                            cursor: 'pointer',
+                            outline: 'none'
+                        }}
+                    >Cart</button>
                 </div>
             </div>
         </div>
