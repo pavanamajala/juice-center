@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ViewItems = ({viewData}) => {
+export const ViewItems = ({ viewData, handleOnClick }) => {
     return (
         <div
             style={{
@@ -10,7 +10,7 @@ export const ViewItems = ({viewData}) => {
         >
             <div
                 style={{
-                    padding:'3px',
+                    padding: '3px',
                     border: '2px solid #ddd',
                     boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)'
                 }}
@@ -29,15 +29,20 @@ export const ViewItems = ({viewData}) => {
                 }}>
                     <div>{viewData?.name}</div>
                 </div>
-                <div style={{ display: 'flex', }}>
+                <div style={{ display: 'flex', justifyContent: 'space-around' }}>
                     <div>Cost: {viewData?.cost}</div>
-                    <div>Quantity: {viewData?.quantity}</div>
+                    <div>Qty: {viewData?.quantity}</div>
                 </div>
                 <div style={{
                     display: 'flex',
                     justifyContent: 'center'
                 }}>
-                    <button>Order</button>
+                    <button
+                        style={{
+                            backgroundColor: '#06eb06'
+                        }}
+                        onClick={() => handleOnClick(viewData)}
+                    >Add to Cart</button>
                 </div>
             </div>
         </div>

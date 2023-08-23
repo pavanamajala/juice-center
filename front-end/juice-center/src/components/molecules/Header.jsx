@@ -1,15 +1,19 @@
 import React from 'react'
 
 export const Header = () => {
+
     return (
         <div>
             <div style={{
                 display: 'flex',
-                backgroundColor: 'blanchedalmond'
+                backgroundColor: '#ff9300'
             }}>
-                <div>
-                    HOME
-                </div>
+                <a
+                    style={{
+                        textDecoration: 'none'
+                    }}
+                    href={'/all-items'}
+                >Home</a>
                 <div style={{
                     position: 'absolute',
                     left: '35%'
@@ -20,18 +24,13 @@ export const Header = () => {
                     position: 'absolute',
                     right: '0'
                 }}>
-                    <button
+                    <a
                         style={{
-                            margin: 0,
-                            padding: 0,
-                            border: 'none',
-                            background: 'none',
-                            color: 'inherit',
-                            font: 'inherit',
-                            cursor: 'pointer',
-                            outline: 'none'
+                            textDecoration: 'none'
                         }}
-                    >Cart</button>
+                        href={'/cart'}
+
+                    >Cart</a>
                 </div>
             </div>
         </div>
