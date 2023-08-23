@@ -68,5 +68,47 @@
       "cost": "30",
       "image": "/images/water-melon.png",
       "id": 10
+    },
+    {
+      "name": "Choco Chip",
+      "quantity": 128,
+      "cost": "10",
+      "image": "/images/choco-chip.png",
+      "id": 10
+    },
+    {
+      "name": "Cookies",
+      "quantity": 128,
+      "cost": "20",
+      "image": "/images/cookies.png",
+      "id": 10
+    },
+    {
+      "name": "Cone Ice Cream",
+      "quantity": 128,
+      "cost": "30",
+      "image": "/images/ice-cream-cone.png",
+      "id": 10
+    },
+    {
+      "name": "Ice Cream",
+      "quantity": 128,
+      "cost": "20",
+      "image": "/images/ice-cream.png",
+      "id": 10
+    },
+    {
+      "name": "Sandwich",
+      "quantity": 128,
+      "cost": "30",
+      "image": "/images/sandwich.png",
+      "id": 10
+    },
+    {
+      "name": "Special Ice Cream",
+      "quantity": 128,
+      "cost": "30",
+      "image": "/images/special-ice-cream.png",
+      "id": 10
     }
   ]
