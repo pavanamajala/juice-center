@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Header } from "./components/molecules/Header";
 import { ViewCart } from "./components/organisms/ViewCart";
 import { ViewAllAvailableItems } from "./components/pages/ViewAllAvailableItems";
+import { ConnectGMail } from "./utils/Email/ConnectGMail";
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/all-items" element={<ViewAllAvailableItems />}/>
           <Route path="/cart" element={<ViewCart/>}/>
+          <Route path="/email" element={<ConnectGMail/>}/>
         </Routes>
       </BrowserRouter>
     </div>
